@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore the Philippines</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+            list-style: none;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-image: url('imageswebdes/background.png');
+            box-shadow: inset 0 0 1000px rgba(0, 0, 0, 0.95);
+            background-size: cover;
+            margin-top: 100px; /* Added margin to separate header from content */
+        }
+
+        header {
+            width: 100%;
+            top: 0;
+            right: 0;
+            z-index: 1000;
+            position: fixed;
+            background-color: #192841;
+            color: white;
+            box-shadow: 0px 2px 18px rgb(129 162 182 / 20%);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 25px 8%;
+            transition: .3s;
+        }
+
+        .logo {
+            color: var(--text-color);
+            font-size: var(--main-font);
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 0.8;
+            text-decoration: none;
+        }
+
+        .navbar {
+            display: flex;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            font-size: var(--p-font);
+            color: var(--text-color);
+            font-weight: 600;
+            padding: 10px 15px;
+            margin: 0 10px;
+            transition: all .40s ease;
+        }
+
+        .navbar a:hover {
+            background: white;
+            color: #000000;
+        }
+
+        .icons {
+            display: inline-block;
+        }
+
+        .icons i {
+            color: white;
+            font-size: 24px;
+            margin-left: 15px;
+        }
+
+        .icons i:hover {
+            opacity: 0.7;
+        }
+
+        h2 {
+            color: white;
+        }
+
+        input[type="text"] {
+            width: 50%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        textarea {
+            width: 50%;
+            height: 100px;
+            padding: 10px;
+            margin-bottom: 0px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .signin-section {
+            margin-top: 150px;
+            position: fixed;
+            top: 25px;
+            right: 25px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            color: black;
+        }
+
+        .sign-box h2 {
+            margin-bottom: 20px;
+            text-align: center;
+            color: maroon;
+        }
+
+        .input-container {
+            margin-bottom: 15px;
+        }
+
+        .input-container input {
+            padding: 10px;
+            width: 250px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .sign-box button {
+            padding: 12px 25px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .sign-box button:hover {
+            background-color: #ed473f;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="gg.html" class="logo">CONTACT US</a>
+        <ul class="navbar">
+            <li><a href="index.html">RETURN</a></li>
+            
+        </ul>
+    </header>
+
+    
+    <div class="signin-section">
+        <div class="sign-box">
+            <h2>Sign In</h2>
+            <form>
+                <div class="input-container">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-container">
+                    <input type="password" placeholder="Password">
+                </div>
+                <button class="button">Sign In</button>
+            </form>
+        </div>
+    </div>
+
+    <br><br>
+    <h2>Contact Us</h2>
+    <form action="#">
+        <input type="text" placeholder="Your Name">
+        <input type="text" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <input type="submit" value="Submit">
+    </form>
+    <br><br><br><br><br><br>
+
+</body>
+
+</html>

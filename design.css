@@ -1,0 +1,116 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  list-style: none;
+  scroll-behavior: smooth;
+
+} 
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-image: url('imageswebdes/background.png');
+  box-shadow: inset 0 0 1000px rgba(0, 0, 0, 0.95);
+  background-size: cover;
+}
+
+header{
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  position: fixed;
+  background-color: #192841; 
+  color: white;
+  box-shadow: 0px 2px 18px rgb(129 162 182 / 20%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 8%;
+  transition: .3s;
+}
+
+.logo{
+  color: var(--text-color);
+  font-size: var(--main-font);
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 0.8;
+  text-decoration: none;
+}
+#menu-icon{
+  font-size: 38px;
+  color: var(--text-color);
+  z-index: 10001;
+  display: none;
+
+}
+             
+.navbar{
+  display: flex;
+}
+
+.navbar a{
+  text-decoration: none;
+  font-size: var(--p-font);
+  color: var(--text-color);
+  font-weight: 600;
+  padding: 10px 15px;
+  margin: 0 10px;
+  transition: all .40s ease;
+}
+
+.navbar a:hover{
+  background: black;
+  color: #fff;
+}
+
+.icons{
+  display: inline-block;
+}
+
+.icons i{
+  color: white;
+  font-size: 24px;
+  margin-left: 15px;
+}
+.icons i:hover{
+  opacity: 0.7;
+}
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 20px;
+  text-align: center;
+  color: rgb(117, 144, 158);
+  font-size: larger;
+  box-shadow: inset 0 0 1000px rgba(0, 0, 0, 0.95);
+}
+
+.map1 {
+  width: 550px;
+  height: 350px;
+  margin-left: 3rem;
+}
+
+.box {
+  display: flex;
+  box-shadow: inset 0 0 1000px rgba(0, 0, 0, 0.95);
+}
+
+.text {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+}
+
+.images img {
+  margin-bottom: 30px;
+}
